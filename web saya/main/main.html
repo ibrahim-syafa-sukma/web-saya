@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexLearn - Main</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <!-- PARTICLE BACKGROUND -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- NAVBAR -->
+    <nav class="glass-nav">
+        <div class="logo">NexLearn</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Materi</a></li>
+            <li><a href="#">Tentang</a></li>
+        </ul>
+    </nav>
+
+    <!-- MASKOT -->
+    <div class="maskot-wrapper" id="maskotWrapper">
+        <div class="speech-bubble" id="maskotBubble">
+            Selamat datang! Pilih materi yang ingin kamu pelajari.
+        </div>
+        <img id="maskot" src="gambar/Diam.png" class="maskot idle-anim">
+    </div>
+
+    <div class="container py-5">
+        <h1 class="text-center title mb-4">Pilih Materi Belajarmu</h1>
+
+        <div class="materi-container">
+
+            <div class="module-card" data-aos="fade-up">
+                <h3>Dasar Jaringan</h3>
+                <p>Belajar konsep dasar jaringan komputer dengan cara yang mudah.</p>
+                <button class="btn-learn">Mulai Belajar</button>
+            </div>
+
+            <div class="module-card" data-aos="fade-up">
+                <h3>Router & Switching</h3>
+                <p>Pahami cara kerja router, switch, dan konfigurasi dasar.</p>
+                <button class="btn-learn">Mulai Belajar</button>
+            </div>
+
+            <div class="module-card" data-aos="fade-up">
+                <h3>Keamanan Jaringan</h3>
+                <p>Pelajari dasar keamanan jaringan dan cara mengamankan sistemmu.</p>
+                <button class="btn-learn">Mulai Belajar</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+
+    <script src="main.js"></script>
+</body>
+</html>

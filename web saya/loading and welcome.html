@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NexLearn | Platform Belajar Jaringan Komputer</title>
+  <link rel="stylesheet" href="style.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ================= LOADING SCREEN ================= -->
+  <div id="loadingScreen" class="loading-screen">
+
+    <!-- BUBBLE EFFECT -->
+    <div class="bubble-container">
+      <span class="bubble"></span>
+      <span class="bubble"></span>
+      <span class="bubble"></span>
+      <span class="bubble"></span>
+      <span class="bubble"></span>
+      <span class="bubble"></span>
+      <span class="bubble"></span>
+    </div>
+
+    <!-- 🌟 BUBBLE DROP (MASUK BARU) -->
+    <div id="loadingBubble" class="bubble-drop out">
+      Memuat modul belajar...
+    </div>
+
+    <img src="gambar/Melambai-1.png" alt="Loading" class="loading-mascot">
+    <div class="loading-logo">NexLearn</div>
+
+    <div class="loading-dots">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+
+    <div class="loading-text">Mempersiapkan petualangan jaringan...</div>
+  </div>
+
+  <!-- ================= WELCOME SCREEN ================= -->
+  <div id="welcomeScreen" class="welcome-screen">
+
+    <!-- BUBBLE EFFECT -->
+    <div class="bubble-container">
+      <span class="bubble"></span>
+      <span class="bubble"></span>
+      <span class="bubble"></span>
+      <span class="bubble"></span>
+      <span class="bubble"></span>
+      <span class="bubble"></span>
+      <span class="bubble"></span>
+    </div>
+
+    <!-- 🌟 BUBBLE DROP (MASUK BARU) -->
+    <div id="welcomeBubble" class="bubble-drop out">
+      Ayo mulai belajar!
+    </div>
+
+    <div class="welcome-container">
+
+      <div class="welcome-mascot">
+        <img src="gambar/Melambai-1.png" alt="Maskot NexLearn">
+      </div>
+
+      <div class="welcome-title">Selamat Datang di NexLearn!</div>
+      <div class="welcome-subtitle">Platform belajar jaringan komputer yang menyenangkan dan interaktif</div>
+
+      <button id="enterButton" class="enter-button">
+        <span class="button-text">Masuk ke Pembelajaran</span>
+        <span class="button-icon">🚀</span>
+      </button>
+
+      <div class="welcome-features">
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <h3 class="feature-title">Lab Simulasi Interaktif</h3>
+          <p class="feature-desc">Praktik langsung di lingkungan virtual dengan simulator jaringan real-time.</p>
+          <button class="feature-button">Coba Sekarang</button>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-book-open"></i>
+          </div>
+          <h3 class="feature-title">Materi Lengkap</h3>
+          <p class="feature-desc">Modul dari dasar hingga lanjutan, cocok untuk persiapan sertifikasi.</p>
+          <button class="feature-button">Pelajari Materi</button>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3 class="feature-title">Komunitas Diskusi</h3>
+          <p class="feature-desc">Bergabung dengan forum, tanya mentor, dan kolaborasi dengan pelajar lain.</p>
+          <button class="feature-button">Gabung Komunitas</button>
+        </div>
+
+      </div>
+
+      <div class="welcome-footer">
+        <p><i class="fas fa-shield-alt"></i> Platform terpercaya untuk belajar jaringan komputer</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
